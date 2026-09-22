@@ -1,0 +1,85 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#081020" />
+      <stop offset="50%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#002D62" />
+    </linearGradient>
+    <linearGradient id="jmf-blue-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0066CC" />
+      <stop offset="50%" stop-color="#0088EA" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+    <linearGradient id="accent-cyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0284C7" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background with subtle border effect -->
+  <rect width="512" height="512" rx="104" fill="url(#bg-grad)" />
+  <rect x="6" y="6" width="500" height="500" rx="98" stroke="url(#jmf-blue-grad)" stroke-width="6" stroke-opacity="0.35" fill="none" />
+
+  <!-- Radar Trajectory & Glow Elements -->
+  <circle cx="370" cy="180" r="48" stroke="#38BDF8" stroke-width="3" stroke-dasharray="6 5" stroke-opacity="0.4" fill="none" />
+  <circle cx="370" cy="180" r="28" stroke="#38BDF8" stroke-width="2" stroke-opacity="0.6" fill="none" />
+  <circle cx="370" cy="180" r="7" fill="#38BDF8" />
+
+  <!-- Trajectory Arc -->
+  <path d="M 180 180 C 230 110, 310 120, 370 180" stroke="#38BDF8" stroke-width="4" stroke-dasharray="8 6" fill="none" />
+
+  <!-- Main Letters "JMF" scaled and centered -->
+  <!-- J -->
+  <path d="M 90 150 L 155 150 L 150 166 L 128 166 L 115 214 C 110 229, 99 241, 77 241 C 67 241, 57 238, 54 233 C 56 228, 62 226, 70 226 C 81 226, 91 218, 96 206 L 107 166 L 85 166 Z" fill="url(#jmf-blue-grad)" />
+
+  <!-- M -->
+  <path d="M 152 150 L 183 150 L 205 202 L 236 150 L 267 150 L 241 241 L 215 241 L 230 190 L 200 241 L 185 241 L 167 190 L 152 241 L 126 241 Z" fill="url(#jmf-blue-grad)" />
+
+  <!-- F -->
+  <path d="M 265 150 L 334 150 L 329 166 L 299 166 L 294 185 L 321 185 L 316 201 L 289 201 L 278 241 L 252 241 Z" fill="#94A3B8" />
+
+  <!-- Cyan Speed Streaks -->
+  <path d="M 340 150 L 375 150 L 370 158 L 337 158 Z" fill="#38BDF8" />
+  <path d="M 334 164 L 365 164 L 360 172 L 331 172 Z" fill="#38BDF8" />
+  <path d="M 328 178 L 355 178 L 350 186 L 325 186 Z" fill="#38BDF8" />
+
+  <!-- Divider Line -->
+  <line x1="80" y1="264" x2="432" y2="264" stroke="#38BDF8" stroke-width="2.5" stroke-opacity="0.8" />
+
+  <!-- Fleet Vehicle Silhouettes on Baseline -->
+  <!-- Vehicle 1: Sedan -->
+  <g transform="translate(100, 276) scale(1.6)">
+    <path d="M 4 14 Q 7 7 15 6 L 24 6 Q 30 9 35 14 L 38 18 L 0 18 Z" fill="#38BDF8" />
+    <circle cx="8" cy="18" r="3.2" fill="#081020" stroke="#38BDF8" stroke-width="1.2" />
+    <circle cx="28" cy="18" r="3.2" fill="#081020" stroke="#38BDF8" stroke-width="1.2" />
+  </g>
+
+  <!-- Vehicle 2: SUV -->
+  <g transform="translate(175, 271) scale(1.6)">
+    <path d="M 3 17 L 7 6 L 27 6 L 33 12 L 36 17 L 37 21 L 0 21 Z" fill="#0284C7" />
+    <circle cx="8" cy="21" r="3.2" fill="#081020" stroke="#0284C7" stroke-width="1.2" />
+    <circle cx="28" cy="21" r="3.2" fill="#081020" stroke="#0284C7" stroke-width="1.2" />
+  </g>
+
+  <!-- Vehicle 3: Van -->
+  <g transform="translate(250, 267) scale(1.6)">
+    <path d="M 2 24 L 2 4 Q 2 2 4 2 L 23 2 Q 26 2 27 5 L 34 14 L 35 24 Z" fill="#64748B" />
+    <circle cx="8" cy="24" r="3.2" fill="#081020" stroke="#64748B" stroke-width="1.2" />
+    <circle cx="27" cy="24" r="3.2" fill="#081020" stroke="#64748B" stroke-width="1.2" />
+  </g>
+
+  <!-- Vehicle 4: Pickup / Truck -->
+  <g transform="translate(325, 271) scale(1.6)">
+    <path d="M 2 21 L 2 5 Q 2 3 4 3 L 28 3 Q 30 3 31 6 L 33 14 L 34 21 Z" fill="#38BDF8" />
+    <circle cx="7" cy="21" r="3.2" fill="#081020" stroke="#38BDF8" stroke-width="1.2" />
+    <circle cx="26" cy="21" r="3.2" fill="#081020" stroke="#38BDF8" stroke-width="1.2" />
+  </g>
+
+  <!-- Branding text: JMF MOBILITY -->
+  <text x="256" y="380" text-anchor="middle" fill="#FFFFFF" font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="34" letter-spacing="8">
+    JMF FLEET
+  </text>
+  <text x="256" y="420" text-anchor="middle" fill="#38BDF8" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="16" letter-spacing="6">
+    MOBILITY &amp; TELEMATICS
+  </text>
+</svg>

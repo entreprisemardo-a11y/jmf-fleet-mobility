@@ -1,0 +1,147 @@
+<svg viewBox="0 0 420 205" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- Royal Blue to Bright Blue Gradient for J & M -->
+    <linearGradient id="jmf-blue-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#0050B3" />
+      <stop offset="40%" stopColor="#0066CC" />
+      <stop offset="100%" stopColor="#0088EA" />
+    </linearGradient>
+
+    <!-- Sleek Steel Titanium for F -->
+    <linearGradient id="jmf-steel-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stopColor="#6C7A89" />
+      <stop offset="100%" stopColor="#556270" />
+    </linearGradient>
+  </defs>
+
+  <!-- Dashed Trajectory Arc connecting M to Radar Pin -->
+  <path
+    d="M 148 68 C 170 34, 255 32, 316 88"
+    stroke="#0098EA"
+    stroke-width="2.6"
+    stroke-dasharray="5 4"
+    fill="none"
+  />
+
+  <!-- Letter J: Dynamic Slanted Italic with Serif and Hook -->
+  <path
+    d="M 54 42 L 108 42 L 104 55 L 86 55 L 75 94 C 71 106, 62 116, 44 116 C 36 116, 28 114, 25 110 C 27 106, 32 104, 38 104 C 47 104, 55 98, 59 88 L 68 55 L 50 55 Z"
+    fill="url(#jmf-blue-grad)"
+  />
+
+  <!-- Letter M: Dynamic Slanted Italic -->
+  <path
+    d="M 106 42 L 131 42 L 149 84 L 174 42 L 199 42 L 178 116 L 157 116 L 169 74 L 145 116 L 133 116 L 118 74 L 106 116 L 85 116 Z"
+    fill="url(#jmf-blue-grad)"
+  />
+
+  <!-- Letter F: Steel Gray Italic -->
+  <path
+    d="M 197 42 L 253 42 L 249 55 L 225 55 L 221 70 L 243 70 L 239 83 L 217 83 L 208 116 L 187 116 Z"
+    fill="url(#jmf-steel-grad)"
+  />
+
+  <!-- 3 Cyan Speed Streaks next to top bar of F -->
+  <!-- Top Streak -->
+  <path d="M 258 42 L 286 42 L 282 48 L 256 48 Z" fill="#0098EA" />
+  <!-- Middle Streak -->
+  <path d="M 253 53 L 278 53 L 274 59 L 251 59 Z" fill="#0098EA" />
+  <!-- Bottom Streak -->
+  <path d="M 248 64 L 270 64 L 266 70 L 246 70 Z" fill="#0098EA" />
+
+  <!-- Telematics Radar Target & Map Pin with Growth Metrics -->
+  <!-- Dashed Radar Circle -->
+  <circle
+    cx="342"
+    cy="95"
+    r="24"
+    stroke="#0098EA"
+    stroke-width="2.2"
+    stroke-dasharray="4.5 3.5"
+    fill="none"
+  />
+
+  <!-- Telematics Waves above Pin -->
+  <path d="M 334 68 C 339 64, 345 64, 350 68" stroke="#0098EA" stroke-width="2" stroke-linecap="round" fill="none" />
+  <path d="M 328 62 C 337 56, 347 56, 356 62" stroke="#0098EA" stroke-width="2" stroke-linecap="round" fill="none" />
+
+  <!-- Map Location Pin -->
+  <path
+    d="M 342 74 C 352 74, 359 81, 359 90 C 359 101, 342 116, 342 116 C 342 116, 325 101, 325 90 C 325 81, 332 74, 342 74 Z"
+    fill="#0050B3"
+  />
+
+  <!-- Inside Map Pin: 3 Rising Metric Chart Bars -->
+  <rect x="333" y="93" width="3.2" height="7" rx="0.8" fill="#FFFFFF" />
+  <rect x="339" y="89" width="3.2" height="11" rx="0.8" fill="#FFFFFF" />
+  <rect x="345" y="85" width="3.2" height="15" rx="0.8" fill="#FFFFFF" />
+
+  <!-- Baseline Under Vehicles -->
+  <line x1="48" y1="126" x2="286" y2="126" stroke="#0098EA" stroke-width="1.4" opacity="0.85" />
+
+  <!-- 4 Fleet Vehicles Silhouettes -->
+  <!-- Vehicle 1: Sedan (Cyan) -->
+  <g transform="translate(68, 108)">
+    <path d="M 4 14 Q 7 7 15 6 L 24 6 Q 30 9 35 14 L 38 18 L 0 18 Z" fill="#0098EA" />
+    <circle cx="8" cy="18" r="3.2" fill="#FFFFFF" stroke="#0098EA" stroke-width="1.2" />
+    <circle cx="28" cy="18" r="3.2" fill="#FFFFFF" stroke="#0098EA" stroke-width="1.2" />
+  </g>
+
+  <!-- Vehicle 2: SUV (Royal Blue) -->
+  <g transform="translate(116, 105)">
+    <path d="M 3 17 L 7 6 L 27 6 L 33 12 L 36 17 L 37 21 L 0 21 Z" fill="#0050B3" />
+    <circle cx="8" cy="21" r="3.2" fill="#FFFFFF" stroke="#0050B3" stroke-width="1.2" />
+    <circle cx="28" cy="21" r="3.2" fill="#FFFFFF" stroke="#0050B3" stroke-width="1.2" />
+  </g>
+
+  <!-- Vehicle 3: Delivery Cargo Van (Slate Charcoal) -->
+  <g transform="translate(164, 102)">
+    <path d="M 2 24 L 2 4 Q 2 2 4 2 L 23 2 Q 26 2 27 5 L 34 14 L 35 24 Z" fill="#3A4654" />
+    <circle cx="8" cy="24" r="3.2" fill="#FFFFFF" stroke="#3A4654" stroke-width="1.2" />
+    <circle cx="27" cy="24" r="3.2" fill="#FFFFFF" stroke="#3A4654" stroke-width="1.2" />
+  </g>
+
+  <!-- Vehicle 4: Utility Minibus / Light Commercial (Cyan) -->
+  <g transform="translate(210, 105)">
+    <path d="M 2 21 L 2 5 Q 2 3 4 3 L 28 3 Q 30 3 31 6 L 33 14 L 34 21 Z" fill="#0098EA" />
+    <circle cx="7" cy="21" r="3.2" fill="#FFFFFF" stroke="#0098EA" stroke-width="1.2" />
+    <circle cx="26" cy="21" r="3.2" fill="#FFFFFF" stroke="#0098EA" stroke-width="1.2" />
+  </g>
+
+  <!-- Text: JMF MOBILITY -->
+  <text
+    x="184"
+    y="155"
+    text-anchor="middle"
+    fill="#0C182B"
+    font-family="'Montserrat', 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif"
+    font-weight="900"
+    font-size="23"
+    letter-spacing="5"
+  >
+    JMF MOBILITY
+  </text>
+
+  <!-- Text: — SERVICES — -->
+  <text
+    x="184"
+    y="176"
+    text-anchor="middle"
+    fill="#2B384A"
+    font-family="'Plus Jakarta Sans', system-ui, -apple-system, sans-serif"
+    font-weight="700"
+    font-size="12.5"
+    letter-spacing="6"
+  >
+    — SERVICES —
+  </text>
+
+  <!-- Bottom Accent Underline Curve under SERVICES -->
+  <path
+    d="M 120 188 Q 184 195 248 188"
+    stroke="#0098EA"
+    stroke-width="2.6"
+    stroke-linecap="round"
+    fill="none"
+  />
+</svg>

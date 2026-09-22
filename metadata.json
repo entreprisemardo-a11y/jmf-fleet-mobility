@@ -1,0 +1,6 @@
+{
+  "name": "JMF Fleet & Mobility",
+  "description": "Plateforme SaaS professionnelle de gestion de flotte automobile, mobilité d'entreprise et services JMF Mobility Services.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
